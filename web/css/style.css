@@ -126,46 +126,45 @@ h6 {
 
 
 /*-- Helper classes --*/
-
-.fl {
+.fl{
     float: left;
 }
 
-.fr {
+.fr{
     float: right;
 }
 
-.center {
+.center{
     text-align: center;
 }
 
-.hidden {
+.hidden{
     display: none!important;
     visibility: hidden;
 }
 
-.block {
+.block{
     padding: 40px 0;
 }
 
-.block:nth-child(2n) {
+.block:nth-child(2n){
     background-color: #fafafa;
 }
 
-.block header {
+.block header{
     text-align: center;
     padding: 0 0 40px 0;
 }
 
-.block header p {
+.block header p{
     display: block;
 }
 
-.circle-img {
+.circle-img{
     display: block;
 }
 
-.circle-img img {
+.circle-img img{
     display: block;
     margin: 0 auto;
     width: 150px;
@@ -175,13 +174,15 @@ h6 {
     transition: opacity 350ms ease-in-out;
 }
 
-.no-touch .circle-img:hover img {
+.no-touch .circle-img:hover img{
     opacity: 0.6;
 }
 
+.after-header-block{
+    padding: 80px 0 0 0;
+}
 
 /*-- Custom checkbox and radio --*/
-
 .checkbox,
 .radio {
     display: inline-block;
@@ -380,25 +381,32 @@ h6 {
     transform: translateY(0);
 }
 
-.fixed-header .main-nav {
+.fixed-header .main-nav{
     background-color: #9cb2b3;
 }
 
-.main-nav li {
+.main-nav li{
     display: block;
 }
 
-.main-nav li a {
+.main-nav li a{
     display: block;
     padding: 8px 0;
     color: #a7e4c2;
     text-transform: uppercase;
 }
 
-.no-touch .main-nav li a:hover {
+.no-touch .main-nav li a:hover{
     color: #838e87;
 }
 
+.fixed-header .main-nav li a{
+    color: #fff;
+}
+
+.fixed-header .main-nav li a:hover{
+    color: #a7e4c2;
+}
 
 /*-- Logo --*/
 .logo {
@@ -849,6 +857,14 @@ h6 {
         color: white;
         z-index: 10000;
     }
+
+    .home-slider__item__text b{
+        font-size: 45px;
+    }
+
+    .home-slider__item__text{
+        font-size: 35px;
+    }
 }
 
 
@@ -868,6 +884,10 @@ h6 {
         z-index: 10000;
         font-size: 12px;
     }
+
+    .home-slider__item__text b{
+        font-size: 40px;
+    }
 }
 
 
@@ -886,6 +906,18 @@ h6 {
         color: white;
         z-index: 10000;
     }
+
+    .menu{
+        padding: 18px 15px;
+    }
+
+    .logo{
+        padding: 15px 10px;
+    }
+
+    .main-nav{
+        padding: 70px 50px 15px 50px;
+    }
 }
 
 
@@ -903,5 +935,9 @@ h6 {
         right: 0;
         color: white;
         z-index: 10000;
+    }
+
+    .main-nav{
+        padding: 60px 50px 15px 40px;
     }
 }
