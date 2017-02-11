@@ -103,9 +103,7 @@ h6 {
     font-size: 15px;
 }
 
-
 /*-- Clearfix --*/
-
 .sr {
     height: 1px;
     width: 1px;
@@ -363,7 +361,6 @@ h6 {
 
 
 /*-- Main naviagtion --*/
-
 .main-nav {
     position: absolute;
     top: 0;
@@ -383,6 +380,10 @@ h6 {
     transform: translateY(0);
 }
 
+.fixed-header .main-nav {
+    background-color: #9cb2b3;
+}
+
 .main-nav li {
     display: block;
 }
@@ -400,13 +401,16 @@ h6 {
 
 
 /*-- Logo --*/
-
 .logo {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 20;
     padding: 20px;
+}
+
+.fixed-header .logo{
+    background-color: #9cb2b3;
 }
 
 .logo a {
@@ -420,7 +424,6 @@ h6 {
 
 
 /*-- Menu icon --*/
-
 .menu {
     position: absolute;
     top: 0;
@@ -431,6 +434,10 @@ h6 {
     opacity: 1;
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
+}
+
+.fixed-header .menu{
+    background-color: #9cb2b3;
 }
 
 .menu__hamburger__inner {
@@ -480,6 +487,12 @@ h6 {
     background-color: #000;
 }
 
+.fixed-header .menu__hamburger__inner,
+.fixed-header .menu__hamburger__inner:after,
+.fixed-header .menu__hamburger__inner:before{
+    background-color: #fff;
+}
+
 .menu__hamburger__inner:after,
 .menu__hamburger__inner:before {
     display: block;
@@ -526,6 +539,11 @@ h6 {
     background-color: #a7e4c2;
 }
 
+.fixed-header.main-nav-active .menu__hamburger__inner,
+.fixed-header.main-nav-active .menu__hamburger__inner:after,
+.fixed-header.main-nav-active .menu__hamburger__inner:before{
+    background-color: #fff;
+}
 
 /*-- Main Footer --*/
 
@@ -740,22 +758,22 @@ h6 {
 
 
 /*-- Icon sprite --*/
-
-.icon {
+.icon-60x60{
     display: block;
+    width: 60px;
+    height: 60px;
     background: url('../images/sprite.png') no-repeat 0 0;
 }
 
-.sm-i-60 {
-    width: 60px;
-    height: 60px;
-}
-
-.yoga-1 {
+.icon-60x60--1{
     background-position: 0 0;
 }
 
-.icon-header {
+.icon-60x60--2{
+    background-position: -60px 0;
+}
+
+.icon-header{
     display: block;
     padding: 20px 0;
     position: relative;
@@ -763,7 +781,7 @@ h6 {
 }
 
 .icon-header:before,
-.icon-header:after {
+.icon-header:after{
     content: '';
     display: inline-block;
     vertical-align: top;
@@ -773,7 +791,7 @@ h6 {
     background-color: #838e87;
 }
 
-.icon-header .icon {
+.icon-header .icon{
     display: inline-block
 }
 
