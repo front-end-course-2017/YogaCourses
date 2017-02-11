@@ -657,8 +657,6 @@ h6 {
     color: #a7e4c2;
 }
 
-
->>>>>>> origin/master
 /*-- Logo --*/
 
 .logo {
@@ -670,13 +668,12 @@ h6 {
     background-color: #9cb2b3;
 }
 
-<<<<<<< HEAD
 .custom-header .logo{
     background-color: transparent;
-=======
+}
+
 .fixed-header .logo {
     background-color: #9cb2b3;
->>>>>>> origin/master
 }
 
 .logo a {
@@ -751,15 +748,12 @@ h6 {
     transition-property: -webkit-transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
-<<<<<<< HEAD
-=======
     background-color: #000;
 }
 
 .fixed-header .menu__hamburger__inner,
 .fixed-header .menu__hamburger__inner:after,
 .fixed-header .menu__hamburger__inner:before {
->>>>>>> origin/master
     background-color: #fff;
 }
 
@@ -806,15 +800,12 @@ h6 {
 .main-nav-active .menu__hamburger__inner,
 .main-nav-active .menu__hamburger__inner:after,
 .main-nav-active .menu__hamburger__inner:before {
-<<<<<<< HEAD
-=======
     background-color: #a7e4c2;
 }
 
 .fixed-header.main-nav-active .menu__hamburger__inner,
 .fixed-header.main-nav-active .menu__hamburger__inner:after,
 .fixed-header.main-nav-active .menu__hamburger__inner:before {
->>>>>>> origin/master
     background-color: #fff;
 }
 
@@ -933,13 +924,8 @@ h6 {
     text-align: center;
 }
 
-<<<<<<< HEAD
 .courses-list li{
-    vertical-align: middle;
-=======
-.courses-list li {
-    position: relative;
->>>>>>> origin/master
+    vertical-align: middle
     color: #fff;
     padding: 10px;
 }
@@ -1149,14 +1135,8 @@ h6 {
 
 
 /* Large devices (desktops, less than 75em) 1024px*/
-<<<<<<< HEAD
 @media (max-width: 74.9em){
     html::after{
-=======
-
-@media (max-width: 74.9em) {
-    html::after {
->>>>>>> origin/master
         display: none;
         content: 'mobile'
     }
@@ -1175,16 +1155,12 @@ h6 {
     h1 {
         font-size: 37px;
     }
-<<<<<<< HEAD
 
     h2{
         font-size: 28px;
     }
 
     .home-slider__item__text b{
-=======
-    .home-slider__item__text b {
->>>>>>> origin/master
         font-size: 45px;
     }
     .home-slider__item__text {
@@ -1206,16 +1182,12 @@ h6 {
     h1 {
         font-size: 32px;
     }
-<<<<<<< HEAD
 
     h2{
         font-size: 25px;
     }
 
     .home-slider__item__text b{
-=======
-    .home-slider__item__text b {
->>>>>>> origin/master
         font-size: 38px;
     }
     .home-slider__item__text {
