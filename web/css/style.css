@@ -767,7 +767,7 @@ h6 {
 
 /*-- Icon sprite --*/
 .icon-60x60{
-    display: block;
+    display: inline-block;
     width: 60px;
     height: 60px;
     background: url('../images/sprite.png') no-repeat 0 0;
@@ -858,6 +858,10 @@ h6 {
         z-index: 10000;
     }
 
+    h1{
+        font-size: 37px;
+    }
+
     .home-slider__item__text b{
         font-size: 45px;
     }
@@ -886,7 +890,11 @@ h6 {
     }
 
     .home-slider__item__text b{
-        font-size: 40px;
+        font-size: 38px;
+    }
+
+    .home-slider__item__text{
+        font-size: 32px;
     }
 }
 
@@ -939,5 +947,13 @@ h6 {
 
     .main-nav{
         padding: 60px 50px 15px 40px;
+    }
+
+    .home-slider__item__text b{
+        font-size: 32px;
+    }
+
+    .home-slider__item__text{
+        font-size: 28px;
     }
 }
