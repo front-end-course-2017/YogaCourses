@@ -64,4 +64,15 @@ $(document).ready(function(){
             body.removeClass('fixed-header');
         }
     });
+
+    //Init homepage big slider
+    if(){
+        $('#home-slider').slick({
+        arrows: false,
+        dots: true
+    });
+    }
+
+    //Init team slider 
+
 });

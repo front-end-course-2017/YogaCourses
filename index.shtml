@@ -37,14 +37,6 @@
 				</div>
 			</section>
 
-			<script type="text/javascript" src="web/js/slick.min.js"></script>
-			<script>
-				$('#home-slider').slick({
-					arrows: false,
-					dots: true
-				});
-			</script>
-
 			<section class="block">
 				<div class="wrapper">
 					<header>
@@ -142,7 +134,7 @@
 					<header>
 						<h1>Your courses</h1>
 						<span class="icon-header">
-							<i class="icon sm-i-60 yoga-1"></i>
+							<i class="icon-60x60 icon-60x60--2"></i>
 						</span>
 					</header>
 

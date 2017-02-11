@@ -153,7 +153,7 @@ h6 {
 
 .block header{
     text-align: center;
-    padding: 0 0 40px 0;
+    padding: 0 0 20px 0;
 }
 
 .block header p{
@@ -640,14 +640,13 @@ h6 {
 
 
 /*-- Media list(list with image and text) --*/
-
 .media-list{
     text-align: center;
 }
 
 .media-list li{
     text-align: center;
-    padding: 0 10px 40px 10px;
+    padding: 20px 10px;
 }
 
 .media-list a{
@@ -663,29 +662,56 @@ h6 {
 
 
 /*-- Courses list --*/
-
-.courses-list li {
-    position: relative;
+.courses-list{
     text-align: center;
+}
+
+.courses-list li{
+    position: relative;
     color: #fff;
 }
 
-.courses-list__img {
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 30px;
+.courses-list__img{
+    padding: 40px 20px;
 }
 
-.courses-list small {
+.bgr-courses-1{
+    background: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        url('../images/bgr02.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.bgr-courses-2{
+    background: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        url('../images/bgr03.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.courses-list small{
     display: block;
     font-size: 14px;
     padding: 0 0 10px 0;
 }
 
+.courses-list h2{
+    color: #fff;
+}
+
+.courses-list span{
+    display: block;
+    padding: 10px 0 0 0;
+}
 
 /*-- Banner custom section --*/
-
-.banner-section {
+.banner-section{
     width: 100%;
     min-height: 200px;
     max-height: 400px;
@@ -699,7 +725,7 @@ h6 {
 .banner-section h3,
 .banner-section h4,
 .banner-section h5,
-.banner-section h6 {
+.banner-section h6{
     color: #fff;
 }
 
@@ -875,20 +901,10 @@ h6 {
 @media (max-width: 61.9em){
     body::before {
         content: "Medium devices (tablets, less than 62em)";
-        display: block;
-        text-align: center;
-        background: rgba(50, 150, 0, 0.5);
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        color: white;
-        z-index: 10000;
-        font-size: 12px;
     }
 
     h1{
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .home-slider__item__text b{
@@ -910,15 +926,14 @@ h6 {
 @media (max-width: 47.9em) {
     body::before {
         content: "Small devices (landscape phones, less than 48em)";
-        display: block;
-        text-align: center;
-        background: rgba(150, 150, 0, 0.5);
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        color: white;
-        z-index: 10000;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    .col--33{
+        width: 50%;
     }
 
     .menu{
@@ -932,6 +947,10 @@ h6 {
     .main-nav{
         padding: 70px 50px 15px 50px;
     }
+
+    .icon-header{
+        padding: 10px 0 0 0;
+    }
 }
 
 
@@ -940,15 +959,22 @@ h6 {
 @media (max-width: 33.9em) {
     body::before {
         content: "Extra small devices (portrait phones, less than 34em)";
-        display: block;
-        text-align: center;
-        background: rgba(15, 15, 15, 0.5);
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        color: white;
-        z-index: 10000;
+    }
+
+    body{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    .col--33{
+        width: 100%;
+    }
+
+    .logo{
+        z-index: 2000;
     }
 
     .main-nav{
