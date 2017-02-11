@@ -66,11 +66,11 @@ $(document).ready(function(){
     });
 
     //Init homepage big slider
-    if(){
+    if($('#home-slider')){
         $('#home-slider').slick({
-        arrows: false,
-        dots: true
-    });
+            arrows: false,
+            dots: true
+        });
     }
 
     //Init team slider 
