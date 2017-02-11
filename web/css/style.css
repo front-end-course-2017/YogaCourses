@@ -92,11 +92,6 @@ h6{
     font-size: 15px;
 }
 
-img{
-    width: 100%;
-    height: auto;
-}
-
 /*-- Clearfix --*/
 .sr{
     height: 1px; width: 1px;
@@ -142,11 +137,12 @@ img{
 
 .block header{
     text-align: center;
-    padding: 0 0 40px 0;
+    padding: 0 0 20px 0;
 }
 
 .block header p{
     display: block;
+    padding: 20px 0 0 0;
 }
 
 .circle-img  {
@@ -165,6 +161,10 @@ img{
 
 .no-touch .circle-img:hover img{
     opacity: 0.6;
+}
+
+.after-header-block{
+    padding: 80px 0 0 0;
 }
 
 /*-- Custom checkbox and radio --*/
@@ -299,14 +299,14 @@ img{
     color: #fff;
     font: normal 15px/1.2 'Exo 2', sans-serif;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 7px 30px;
     margin: 10px 0 0 0;
     -webkit-transition: all 350ms ease-in-out;
     transition: all 350ms ease-in-out;
 }
 
 .no-touch .btn:hover{
-    background-color: #fff;
+    opacity: 0.7;
     color: #000;
 }
 
@@ -318,7 +318,6 @@ img{
 
 /*-- Main Header --*/
 .main-header{
-    /*border: 1px solid red;*/
     position: fixed;
     top: 0;
     left: 0;
@@ -326,6 +325,7 @@ img{
     z-index: 1000;
     height: 80px;
 }
+
 
 .main-header .wrapper{
     position: relative;
@@ -347,8 +347,12 @@ img{
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
 
-    -webkit-transition: transform 350ms cubic-bezier(.215,.61,.355,1) 300ms;
-    transition: transform 350ms cubic-bezier(.215,.61,.355,1) 300ms;
+    -webkit-transition: all 350ms cubic-bezier(.215,.61,.355,1) 300ms;
+    transition: all 350ms cubic-bezier(.215,.61,.355,1) 300ms;
+}
+
+.fixed-header .main-nav{
+    background-color: #b5bcbd;
 }
 
 .main-nav-active .main-nav{
@@ -370,12 +374,26 @@ img{
     color: #838e87;
 }
 
+.fixed-header .main-nav li a{
+    color: #fff;
+}
+
+.no-touch .fixed-header .main-nav li a:hover{
+    color: #a7e4c2;
+}
+
 /*-- Logo --*/
 .logo{
    position: absolute;
    top: 0; left: 0;
    z-index: 20;
    padding: 20px;
+
+    transition: all 350ms ease-in-out;
+}
+
+.fixed-header .logo{
+    background-color: #b5bcbd;
 }
 
 .logo a{
@@ -400,6 +418,10 @@ img{
     opacity: 1;
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
+}
+
+.fixed-header .menu{
+    background-color: #b5bcbd;
 }
 
 .menu__hamburger__inner{
@@ -449,6 +471,12 @@ img{
     background-color: #000;
 }
 
+.fixed-header .menu__hamburger__inner, 
+.fixed-header .menu__hamburger__inner:after, 
+.fixed-header .menu__hamburger__inner:before{
+    background-color: #fff;
+}
+
 .menu__hamburger__inner:after, 
 .menu__hamburger__inner:before {
     display: block;
@@ -493,6 +521,12 @@ img{
 .main-nav-active .menu__hamburger__inner:after, 
 .main-nav-active .menu__hamburger__inner:before{
     background-color: #a7e4c2;
+}
+
+.fixed-header.main-nav-active .menu__hamburger__inner, 
+.fixed-header.main-nav-active .menu__hamburger__inner:after, 
+.fixed-header.main-nav-active .menu__hamburger__inner:before{
+    background-color: #fff
 }
 
 /*-- Main Footer --*/
@@ -576,13 +610,9 @@ img{
 }
 
 /*-- Media list(list with image and text) --*/
-.media-list{
-    margin: 0 0 -40px 0;
-}
-
 .media-list li{
     text-align: center;
-    padding: 0 10px 40px 10px;
+    padding: 20px 10px;
 }
 
 .media-list a{
@@ -597,22 +627,64 @@ img{
 }
 
 /*-- Courses list --*/
+.courses-list{
+    text-align: center;
+}
+
 .courses-list li{
     position: relative;
     text-align: center;
+    vertical-align: middle;
     color: #fff;
+    padding: 10px;
 }
 
 .courses-list__img{
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 30px;
+    padding: 40px 20px;
+}
+
+.bgr-courses-1{
+    background:  
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        url('../images/bgr02.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.bgr-courses-2{
+    background:  
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        url('../images/bgr03.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.courses-list span{
+    display: block;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 20px;
+    max-height: 60px;
+}
+
+.courses-list h2{
+    color: #fff;
+    padding: 0 0 10px 0;
 }
 
 .courses-list small{
     display: block;
     font-size: 14px;
     padding: 0 0 10px 0;
+    color: #a7e4c2;
 }
 
 /*-- Banner custom section --*/
@@ -711,7 +783,7 @@ img{
 
 .icon-header{
     display: block;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     position: relative;
     text-align: center;
 }
