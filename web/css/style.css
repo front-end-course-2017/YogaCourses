@@ -337,7 +337,6 @@ h6 {
 
 
 /*-- Wrapper --*/
-
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;
@@ -345,9 +344,7 @@ h6 {
 
 
 /*-- Main Header --*/
-
 .main-header {
-    /*border: 1px solid red;*/
     position: fixed;
     top: 0;
     left: 0;
@@ -370,7 +367,7 @@ h6 {
     z-index: 1000;
     max-width: 300px;
     padding: 90px 80px 15px 65px;
-    background-color: #fff;
+    background-color: #9cb2b3;
     text-align: right;
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
@@ -393,20 +390,12 @@ h6 {
 .main-nav li a{
     display: block;
     padding: 8px 0;
-    color: #a7e4c2;
+    color: #fff;
     text-transform: uppercase;
 }
 
 .no-touch .main-nav li a:hover{
     color: #838e87;
-}
-
-.fixed-header .main-nav li a{
-    color: #fff;
-}
-
-.fixed-header .main-nav li a:hover{
-    color: #a7e4c2;
 }
 
 /*-- Logo --*/
@@ -416,10 +405,11 @@ h6 {
     left: 0;
     z-index: 20;
     padding: 20px;
+    background-color: #9cb2b3;
 }
 
-.fixed-header .logo{
-    background-color: #9cb2b3;
+.custom-header .logo{
+    background-color: transparent;
 }
 
 .logo a {
@@ -438,7 +428,7 @@ h6 {
     top: 0;
     right: 0;
     z-index: 1100;
-    background-color: #fff;
+    background-color: #9cb2b3;
     padding: 25px;
     opacity: 1;
     -webkit-transition: all 350ms ease;
@@ -493,12 +483,6 @@ h6 {
     transition-property: -webkit-transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
-    background-color: #000;
-}
-
-.fixed-header .menu__hamburger__inner,
-.fixed-header .menu__hamburger__inner:after,
-.fixed-header .menu__hamburger__inner:before{
     background-color: #fff;
 }
 
@@ -545,12 +529,6 @@ h6 {
 .main-nav-active .menu__hamburger__inner,
 .main-nav-active .menu__hamburger__inner:after,
 .main-nav-active .menu__hamburger__inner:before {
-    background-color: #a7e4c2;
-}
-
-.fixed-header.main-nav-active .menu__hamburger__inner,
-.fixed-header.main-nav-active .menu__hamburger__inner:after,
-.fixed-header.main-nav-active .menu__hamburger__inner:before{
     background-color: #fff;
 }
 
@@ -878,7 +856,6 @@ h6 {
 
 
 /* Large devices (desktops, less than 75em) 1024px*/
-
 @media (max-width: 74.9em){
     html::after{
         display: none;
