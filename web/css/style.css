@@ -158,6 +158,7 @@ h6 {
 
 .block header p{
     display: block;
+    padding: 20px 0 0 0;
 }
 
 .circle-img{
@@ -640,20 +641,20 @@ h6 {
 
 /*-- Media list(list with image and text) --*/
 
-.media-list {
-    margin: 0 0 -40px 0;
+.media-list{
+    text-align: center;
 }
 
-.media-list li {
+.media-list li{
     text-align: center;
     padding: 0 10px 40px 10px;
 }
 
-.media-list a {
+.media-list a{
     display: block;
 }
 
-.media-list strong {
+.media-list strong{
     display: block;
     padding: 10px 0;
     font: bold 20px/1.2 'Exo 2', sans-serif;
@@ -783,7 +784,7 @@ h6 {
 
 .icon-header{
     display: block;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     position: relative;
     text-align: center;
 }
@@ -803,36 +804,34 @@ h6 {
     display: inline-block
 }
 
-
 /*-- Sticky footer --*/
-
 .site,
-.table {
+.table{
     display: table;
     width: 100%;
     height: 100%;
     table-layout: fixed;
 }
 
-.main-content {
+.main-content{
     display: table-row;
     height: 100%;
 }
 
-.main-footer {
+.main-footer{
     display: table-row;
     height: 1px;
 }
 
-.cell {
+.cell{
     display: table-cell;
 }
 
 
 /*-- Responsive --*/
 
-@media (max-width: 1400px) {
-    .wrapper {
+@media (max-width: 1400px){
+    .wrapper{
         margin: 0 10px;
     }
 }
@@ -840,12 +839,12 @@ h6 {
 
 /* Large devices (desktops, less than 75em) 1024px*/
 
-@media (max-width: 74.9em) {
-    html::after {
+@media (max-width: 74.9em){
+    html::after{
         display: none;
         content: 'mobile'
     }
-    body::before {
+    body::before{
         content: "Large devices (desktops, less than 75em)";
         display: block;
         text-align: center;
@@ -873,8 +872,7 @@ h6 {
 
 
 /* Medium devices (tablets, less than 62em) 768px */
-
-@media (max-width: 61.9em) {
+@media (max-width: 61.9em){
     body::before {
         content: "Medium devices (tablets, less than 62em)";
         display: block;
@@ -889,12 +887,20 @@ h6 {
         font-size: 12px;
     }
 
+    h1{
+        font-size: 34px;
+    }
+
     .home-slider__item__text b{
         font-size: 38px;
     }
 
     .home-slider__item__text{
         font-size: 32px;
+    }
+
+    .block header p{
+        padding: 10px 0 0 0;
     }
 }
 
