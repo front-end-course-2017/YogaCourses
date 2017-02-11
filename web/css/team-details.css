@@ -60,6 +60,9 @@
 }
 
 
+/*-- Responsive --*/
+
+
 /* Medium devices (tablets, less than 62em) 768px */
 
 @media (max-width: 61.9em) {
@@ -74,6 +77,7 @@
         padding-top: 15px;
     }
     .team-details__content h2 {
+        padding-top: 10px;
         font-size: 30px;
     }
 }
@@ -82,10 +86,31 @@
 /* Small devices (landscape phones, less than 48em) 500px */
 
 @media (max-width: 47.9em) {
-    
+    .team-details__content h2 {
+        padding-top: 12px;
+        font-size: 26px;
+    }
+    .icon-header:before,
+    .icon-header:after {
+        width: 80px;
+    }
+    .team-details__content__description {
+        padding-top: 14px;
+    }
 }
 
 
 /* Extra small devices (portrait phones, less than 34em) 320px*/
 
-@media (max-width: 33.9em) {}
+@media (max-width: 33.9em) {
+    .team-details__content h2 {
+        font-size: 24px;
+    }
+    .icon-header:before,
+    .icon-header:after {
+        width: 60px;
+    }
+    .team-details__content__description {
+        padding-top: 16px;
+    }
+}
