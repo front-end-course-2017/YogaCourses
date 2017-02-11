@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html> 
+	<!--#include file="includes/_top.html"-->
+	<body>
+		<!--#include file="includes/_header.html"-->
+
+		<main class="main-content">
+			<style>
+				.bgr-1{
+					background-image: url('web/images/homepage-slider/slide1.jpg');
+				}
+				.bgr-2{
+					background-image: url('web/images/homepage-slider/slide2.jpg');
+				}
+				.bgr-3{
+					background-image: url('web/images/homepage-slider/slide3.jpg');
+				}
+			</style>
+
+			<section>
+				<div id="home-slider" class="home-slider">
+					<div class="home-slider__item bgr-1">
+						<div class="home-slider__item__text">
+							Yoga is the key <b>to flexability</b>
+						</div>
+					</div>
+					<div class="home-slider__item bgr-2">
+						<div class="home-slider__item__text">
+							Yoga is the key <b>to flexability</b>
+						</div>
+					</div>
+					<div class="home-slider__item bgr-3">
+						<div class="home-slider__item__text">
+							Yoga is the key <b>to flexability</b>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<script type="text/javascript" src="web/js/slick.min.js"></script>
+			<script>
+				$('#home-slider').slick({
+					arrows: false,
+					dots: true
+				});
+			</script>
+
+			<section class="block">
+				<div class="wrapper">
+					<header>
+						<h1>WHAT WE DO AND WHO WE ARE?</h1>
+						<span class="icon-header">
+							<i class="icon sm-i-60 yoga-1"></i>
+						</span>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+							aliqua. Ut enim aliquip ex ea commodo consequat.
+						</p>
+					</header>
+					<ul class="grid media-list">
+						<li class="col col--33">
+							<a href="javascript:;" title="">
+								<figure>
+									<span class="circle-img">
+										<img src="web/images/person1.jpg" alt=""/>
+									</span>
+									<figcaption>
+										<strong>SAM SMITH “THE GURU”</strong>
+										<span>
+											Sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.
+										</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li class="col col--33">
+							<a href="javascript:;" title="">
+								<figure>
+									<span class="circle-img">
+										<img src="web/images/person1.jpg" alt=""/>
+									</span>
+									<figcaption>
+										<strong>SAM SMITH “THE GURU”</strong>
+										<span>
+											Sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.
+										</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li class="col col--33">
+							<a href="javascript:;" title="">
+								<figure>
+									<span class="circle-img">
+										<img src="web/images/person1.jpg" alt=""/>
+									</span>
+									<figcaption>
+										<strong>SAM SMITH “THE GURU”</strong>
+										<span>
+											Sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.
+										</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li class="col col--33">
+							<a href="javascript:;" title="">
+								<figure>
+									<span class="circle-img">
+										<img src="web/images/person1.jpg" alt=""/>
+									</span>
+									<figcaption>
+										<strong>SAM SMITH “THE GURU”</strong>
+										<span>
+											Sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.
+										</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li class="col col--33">
+							<a href="javascript:;" title="">
+								<figure>
+									<span class="circle-img">
+										<img src="web/images/person1.jpg" alt=""/>
+									</span>
+									<figcaption>
+										<strong>SAM SMITH “THE GURU”</strong>
+										<span>
+											Sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore.
+										</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="block">
+				<div class="wrapper">
+					<header>
+						<h1>Your courses</h1>
+						<span class="icon-header">
+							<i class="icon sm-i-60 yoga-1"></i>
+						</span>
+					</header>
+
+					<ul class="grid courses-list">
+						<li class="col col--33">
+							<div class="courses-list__img bgr-courses-1">
+								<small>NEW CLASSES</small>
+								<h2>STEAM YOGA</h2>
+								<span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+								<a href="javascript:;" title="" class="btn">See more</a>
+							</div>
+						</li>
+						<li class="col col--33">
+							<div class="courses-list__img bgr-courses-2">
+								<small>NEW CLASSES</small>
+								<h2>YOGA BARRE</h2>
+								<span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+								<a href="javascript:;" title="" class="btn">See more</a>
+							</div>
+						</li>
+						<li class="col col--33">
+							<div class="courses-list__img bgr-courses-2">
+								<small>NEW CLASSES</small>
+								<h2>YOGA MIND</h2>
+								<span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+								<a href="javascript:;" title="" class="btn">See more</a>
+							</div>
+						</li>
+						<li class="col col--33">
+							<div class="courses-list__img bgr-courses-1">
+								<small>NEW CLASSES</small>
+								<h2>YOGA FOR BEGINERS</h2>
+								<span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+								<a href="javascript:;" title="" class="btn">See more</a>
+							</div>
+						</li>
+						<li class="col col--33">
+							<div class="courses-list__img bgr-courses-1">
+								<small>NEW CLASSES</small>
+								<h2>YOGA CORE</h2>
+								<span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+								<a href="javascript:;" title="" class="btn">See more</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="banner-section">
+				<div class="wrapper">
+					<h4>Sit amet, consectetur adipisicing elit</h4>
+					<h2>SAM SMITH “THE GURU”</h2>
+					<a href="javascript:;" title="" class="btn">Нашите предложения</a>
+				</div>
+			</section>
+
+		</main>
+
+		<!--#include file="includes/_footer.html"-->
+	</body>
+</html>
