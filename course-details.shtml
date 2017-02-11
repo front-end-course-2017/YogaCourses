@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<!--#include file="includes/_top.html"-->
+
+<body>
+    <!--#include file="includes/_header.html"-->
+
+    <main class="main-content">
+        <section class="team-details table">
+            <div class="wrapper">
+                <div class="team-details__img cell col--33">
+                    <img src="web/images/team-details/instructor1.png" alt="SANDRA FIT" />
+                </div>
+                <div class="team-details__content cell col--66">
+                    <h2>SANDRA FIT</h2>
+                    <span class="icon-header">
+							<i class="icon-60x60 icon-60x60--1"></i>
+						</span>
+                    <div class="team-details__content__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quod labore laudantium soluta, quas, suscipit deserunt corrupti sequi doloremque, asperiores ut atque explicabo, earum ex unde? Quisquam eligendi, eum modi, repellat mollitia quod veniam
+                        ipsum debitis odit dolorum rerum beatae, perspiciatis ullam nam optio aut nulla inventore quibusdam tempora sed.</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <ul id="courses-slider" class="grid courses-list slider">
+                <li class="col">
+                    <div class="courses-list__img bgr-courses-1">
+                        <small>NEW CLASSES</small>
+                        <h2>STEAM YOGA</h2>
+                        <span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+                        <a href="javascript:;" title="" class="btn">See more</a>
+                    </div>
+                </li>
+                <li class="col">
+                    <div class="courses-list__img bgr-courses-2">
+                        <small>NEW CLASSES</small>
+                        <h2>YOGA BARRE</h2>
+                        <span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+                        <a href="javascript:;" title="" class="btn">See more</a>
+                    </div>
+                </li>
+                <li class="col">
+                    <div class="courses-list__img bgr-courses-2">
+                        <small>NEW CLASSES</small>
+                        <h2>YOGA MIND</h2>
+                        <span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+                        <a href="javascript:;" title="" class="btn">See more</a>
+                    </div>
+                </li>
+                <li class="col">
+                    <div class="courses-list__img bgr-courses-1">
+                        <small>NEW CLASSES</small>
+                        <h2>YOGA FOR BEGINERS</h2>
+                        <span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+                        <a href="javascript:;" title="" class="btn">See more</a>
+                    </div>
+                </li>
+                <li class="col">
+                    <div class="courses-list__img bgr-courses-1">
+                        <small>NEW CLASSES</small>
+                        <h2>YOGA CORE</h2>
+                        <span>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad minim.
+								</span>
+                        <a href="javascript:;" title="" class="btn">See more</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!--#include file="includes/_footer.html"-->
+</body>
+
+</html>

@@ -1,12 +1,14 @@
 // Fix for browsers that doesn't support CSS3 
-;(function( $, window, document, undefined){
+;
+(function($, window, document, undefined) {
     'use strict';
- 
-    var s = document.body || document.documentElement, s = s.style;
-    
-    if(s.webkitFlexWrap == '' || s.msFlexWrap == '' || s.flexWrap == '' || Modernizr.csstransforms == 'true' || Modernizr.svg == 'true') return true;
-        $('head').append('<link rel="stylesheet" href="web/css/css3fixes.css" type="text/css" />');
- 
+
+    var s = document.body || document.documentElement,
+        s = s.style;
+
+    if (s.webkitFlexWrap == '' || s.msFlexWrap == '' || s.flexWrap == '' || Modernizr.csstransforms == 'true' || Modernizr.svg == 'true') return true;
+    $('head').append('<link rel="stylesheet" href="web/css/css3fixes.css" type="text/css" />');
+
 })(jQuery, window, document);
 
 //Can touch 
@@ -15,58 +17,61 @@ var canTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
 //SVG
 var SVGsupport = !!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect;
 
-if(!SVGsupport){
-document.getElementsByTagName('html')[0].className += ' no-svg';
+if (!SVGsupport) {
+    document.getElementsByTagName('html')[0].className += ' no-svg';
 }
 
 //Respimage
-function loadJS(u){var r = document.getElementsByTagName( "script" )[ 0 ], s = document.createElement( "script" );s.src = u;r.parentNode.insertBefore( s, r );}
+function loadJS(u) {
+    var r = document.getElementsByTagName("script")[0],
+        s = document.createElement("script");
+    s.src = u;
+    r.parentNode.insertBefore(s, r);
+}
 
-if(!window.HTMLPictureElement){
-  document.createElement('picture');
-  loadJS("web/js/respimage.min.js");
+if (!window.HTMLPictureElement) {
+    document.createElement('picture');
+    loadJS("web/js/respimage.min.js");
 }
 
 
 //Document ready
-$(document).ready(function(){
+$(document).ready(function() {
     var body = $('body');
 
     //Can touch
-    if(canTouch){
+    if (canTouch) {
         body.removeClass('no-touch');
-    } 
-    else{
+    } else {
         body.addClass('no-touch');
     }
 
     //SVG
-	if(!SVGsupport){
-		$('img[src$="svg"]').each(function(){
+    if (!SVGsupport) {
+        $('img[src$="svg"]').each(function() {
             var $this = $(this);
-    		if($this.data('image') != 'undefined'){
-    			$this.attr('src', $this.data('image'));
-    		}
-		});
-	}
+            if ($this.data('image') != 'undefined') {
+                $this.attr('src', $this.data('image'));
+            }
+        });
+    }
 
     //Active main navigation
-    $('.menu').on('click', function(e){
+    $('.menu').on('click', function(e) {
         e.preventDefault();
         body.toggleClass('main-nav-active');
     });
 
-    $(window).scroll(function() {    
-        if($(window).scrollTop() >= 80){
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= 80) {
             body.addClass('fixed-header');
-        }
-        else{
+        } else {
             body.removeClass('fixed-header');
         }
     });
 
     //Init homepage big slider
-    if($('#home-slider')){
+    if ($('#home-slider')) {
         $('#home-slider').slick({
             arrows: false,
             dots: true
@@ -74,7 +79,7 @@ $(document).ready(function(){
     }
 
     //Init team slider 
-	if ($('#team-slider')) {
+    if ($('#team-slider')) {
         $('#team-slider').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -96,4 +101,32 @@ $(document).ready(function(){
         });
     }
 
+    //Init courses slider
+    if ($('#courses-slider')) {
+        $('#courses-slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [{
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 542,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        })
+    }
 });

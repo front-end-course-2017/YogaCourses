@@ -23,7 +23,7 @@
             </div>
         </section>
         <section>
-            <ul id="team-slider" class="grid media-list">
+            <ul id="team-slider" class="grid media-list slider">
                 <li class="col">
                     <a href="javascript:;" title="">
                         <figure>
