@@ -24,4 +24,68 @@
 
 .team-details__content__description {
     text-align: center;
+    padding-top: 10px;
 }
+
+.media-list .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    text-indent: -9999px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.media-list .slick-arrow:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 5px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #838e87;
+}
+
+.media-list .slick-prev {
+    left: 0;
+}
+
+.media-list .slick-prev:before {
+    transform: rotate(180deg);
+}
+
+.media-list .slick-next {
+    right: 0;
+}
+
+
+/* Medium devices (tablets, less than 62em) 768px */
+
+@media (max-width: 61.9em) {
+    .cell {
+        display: block;
+        width: 100%;
+    }
+    .team-details__img img {
+        margin: 0 auto;
+    }
+    .team-details__content {
+        padding-top: 15px;
+    }
+    .team-details__content h2 {
+        font-size: 30px;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 48em) 500px */
+
+@media (max-width: 47.9em) {
+    
+}
+
+
+/* Extra small devices (portrait phones, less than 34em) 320px*/
+
+@media (max-width: 33.9em) {}
