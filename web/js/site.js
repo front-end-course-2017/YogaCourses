@@ -56,4 +56,12 @@ $(document).ready(function(){
         body.toggleClass('main-nav-active');
     });
 
+    $(window).scroll(function() {    
+        if($(window).scrollTop() >= 80){
+            body.addClass('fixed-header');
+        }
+        else{
+            body.removeClass('fixed-header');
+        }
+    });
 });
