@@ -331,7 +331,7 @@ h6 {
 }
 
 .no-touch .btn:hover {
-    background-color: #fff;
+    opacity: 0.8;
     color: #000;
 }
 
@@ -667,6 +667,7 @@ h6 {
 }
 
 .courses-list li{
+    vertical-align: middle;
     color: #fff;
     padding: 10px;
 }
@@ -699,6 +700,7 @@ h6 {
     display: block;
     font-size: 14px;
     padding: 0 0 10px 0;
+    color: #5fc7ae;
 }
 
 .courses-list h2{
@@ -722,7 +724,12 @@ h6 {
     width: 100%;
     min-height: 200px;
     max-height: 400px;
-    background: rgba(255, 0, 0, 0.45) url('../images/banner.jpg') no-repeat top center;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+        ),
+        url('../images/banner.jpg') no-repeat top center;
     background-size: cover;
     padding: 50px 0;
 }
@@ -894,12 +901,20 @@ h6 {
         font-size: 37px;
     }
 
+    h2{
+        font-size: 28px;
+    }
+
     .home-slider__item__text b{
         font-size: 45px;
     }
 
     .home-slider__item__text{
         font-size: 35px;
+    }
+
+    .courses-list__img{
+        padding: 30px 10px;
     }
 }
 
@@ -912,6 +927,10 @@ h6 {
 
     h1{
         font-size: 32px;
+    }
+
+    h2{
+        font-size: 25px;
     }
 
     .home-slider__item__text b{
