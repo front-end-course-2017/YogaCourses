@@ -585,6 +585,7 @@ h6 {
 
 
 /*-- Wrapper --*/
+
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;
@@ -592,6 +593,7 @@ h6 {
 
 
 /*-- Main Header --*/
+
 .main-header {
     position: fixed;
     top: 0;
@@ -647,8 +649,6 @@ h6 {
     color: #838e87;
 }
 
-<<<<<<< HEAD
-=======
 .fixed-header .main-nav li a {
     color: #fff;
 }
@@ -656,6 +656,7 @@ h6 {
 .fixed-header .main-nav li a:hover {
     color: #a7e4c2;
 }
+
 
 /*-- Logo --*/
 
@@ -668,7 +669,7 @@ h6 {
     background-color: #9cb2b3;
 }
 
-.custom-header .logo{
+.custom-header .logo {
     background-color: transparent;
 }
 
@@ -924,8 +925,8 @@ h6 {
     text-align: center;
 }
 
-.courses-list li{
-    vertical-align: middle
+.courses-list li {
+    vertical-align: middle;
     color: #fff;
     padding: 10px;
 }
@@ -974,12 +975,7 @@ h6 {
     width: 100%;
     min-height: 200px;
     max-height: 400px;
-    background: 
-        linear-gradient(
-            rgba(0, 0, 0, 0.6), 
-            rgba(0, 0, 0, 0.6)
-        ),
-        url('../images/banner.jpg') no-repeat top center;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/banner.jpg') no-repeat top center;
     background-size: cover;
     padding: 50px 0;
 }
@@ -1135,8 +1131,9 @@ h6 {
 
 
 /* Large devices (desktops, less than 75em) 1024px*/
-@media (max-width: 74.9em){
-    html::after{
+
+@media (max-width: 74.9em) {
+    html::after {
         display: none;
         content: 'mobile'
     }
@@ -1155,19 +1152,16 @@ h6 {
     h1 {
         font-size: 37px;
     }
-
-    h2{
+    h2 {
         font-size: 28px;
     }
-
-    .home-slider__item__text b{
+    .home-slider__item__text b {
         font-size: 45px;
     }
     .home-slider__item__text {
         font-size: 35px;
     }
-
-    .courses-list__img{
+    .courses-list__img {
         padding: 30px 10px;
     }
 }
@@ -1182,12 +1176,10 @@ h6 {
     h1 {
         font-size: 32px;
     }
-
-    h2{
+    h2 {
         font-size: 25px;
     }
-
-    .home-slider__item__text b{
+    .home-slider__item__text b {
         font-size: 38px;
     }
     .home-slider__item__text {

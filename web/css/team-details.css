@@ -1,3 +1,13 @@
+header h2,
+h5 {
+    text-align: center;
+    color: #9cb2b3;
+}
+
+header {
+    padding-bottom: 50px;
+}
+
 .team-details {
     padding: 80px 0;
 }

@@ -8,6 +8,10 @@
 
         <section class="team-details table">
             <div class="wrapper">
+                <header>
+                    <h5>TEAM</h5>
+                    <h2>OUR AWSOME TRAINERS</h2>
+                </header>
                 <div class="team-details__img cell col--33">
                     <img src="web/images/team-details/instructor1.png" alt="SANDRA FIT" />
                 </div>
