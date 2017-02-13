@@ -83,10 +83,25 @@ header {
 
 /*-- Responsive --*/
 
+@media (max-width: 74.9em) {
+    h5 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}
+
 
 /* Medium devices (tablets, less than 62em) 768px */
 
 @media (max-width: 61.9em) {
+    h5 {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 25px;
+    }
     .cell {
         display: block;
         width: 100%;
@@ -107,9 +122,12 @@ header {
 /* Small devices (landscape phones, less than 48em) 500px */
 
 @media (max-width: 47.9em) {
-    .team-details__content h2 {
+    h5 {
+        font-size: 14px;
+    }
+    h2 {
         padding-top: 12px;
-        font-size: 26px;
+        font-size: 22px;
     }
     .icon-header:before,
     .icon-header:after {
