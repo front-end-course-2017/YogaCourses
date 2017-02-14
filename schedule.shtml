@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<!--#include file="includes/_top.html"-->
+
+<body>
+    <!--#include file="includes/_header.html"-->
+    <main class="main-content">
+
+        <section class="team-details table">
+            <div class="wrapper">
+                <header>
+                    <h5>SCHEDULE</h5>
+                    <h2>OUR TRAINING</h2>
+                </header>
+                <div class="team-details__content__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quod labore laudantium soluta, quas, suscipit deserunt corrupti sequi doloremque, asperiores ut atque explicabo, earum ex unde? Quisquam eligendi, eum modi, repellat mollitia quod veniam
+                    ipsum debitis odit dolorum rerum beatae, perspiciatis ullam nam optio aut nulla inventore quibusdam tempora sed.
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="training-schedule table">
+                <div>
+                    <div class="cell cell--width"></div>
+                    <div class="cell cell--width">07:00 - 09:00</div>
+                    <div class="cell cell--width">09:00 - 11:00</div>
+                    <div class="cell cell--width">11:00 - 13:00</div>
+                    <div class="cell cell--width">13:00 - 15:00</div>
+                    <div class="cell cell--width">15:00 - 17:00</div>
+                    <div class="cell cell--width">17:00 - 19:00</div>
+                    <div class="cell cell--width">19:00 - 21:00</div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--#include file="includes/_footer.html"-->
+</body>
+
+</html>
+
+<!--
+
+<div class="fightclub-container-fluid max widdiv">
+    <div class="fightclub-inner-container">
+        <div class="fightclub-column vc whole">
+            <div class="fightclub-column-inner">
+                <div class="ing-schedule-wrapper" id="ing-location-all">
+                    <table class="ing-schedule-normal-layout">
+                        <tbody>
+                            <tr>
+                                <div colspan="1" class="ing-hour-col" style="border-right: none"></div>
+                                <div colspan="1" class="ing-hour-col"></div>
+                                <div colspan="2" class="ing-hour-col-07-00">07:00 - 09:00</div>
+                                <div colspan="2" class="ing-hour-col-09-00">09:00 - 11:00</div>
+                                <div colspan="2" class="ing-hour-col-11-00">11:00 - 13:00</div>
+                                <div colspan="2" class="ing-hour-col-13-00">13:00 - 15:00</div>
+                                <div colspan="2" class="ing-hour-col-15-00">15:00 - 17:00</div>
+                                <div colspan="2" class="ing-hour-col-17-00">17:00 - 19:00</div>
+                                <div colspan="2" class="ing-hour-col-19-00">19:00 - 21:00</div>
+                            </tr>
+                            <tr>
+                                <div colspan="2" class="ing-day-row ing-day-col-1">Monday</div>
+                                <td class="ing-cell ing-hour-col-07-00 ing-day-row-1">
+                                    <div class="mma ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Steam Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="2" href="#qtip" class="ing-qtip">Steam Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="1" href="#qtip" class="ing-qtip">Sandra Fit "dive Hammer"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 7:00 to 9:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-08-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-09-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-10-00 ing-day-row-1">
+                                    <div class="crossfit ing-td-relative">
+                                        <div class="ing-class-container" style=" widdiv: 188.119%;">
+                                            <div class="ing-class-name">Yoga Core</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="2" href="#qtip" class="ing-qtip">Yoga Core</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="3" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 10:00 to 12:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-11-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-12-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-13-00 ing-day-row-1">
+                                    <div class="boxing ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name" style="color:#ffffff;">Yoga Barre</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="4" href="#qtip" class="ing-qtip">Yoga Barre</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="5" href="#qtip" class="ing-qtip">John Beaton "Scrappy Doo"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 13:00 to 15:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-14-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-15-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-16-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-17-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-18-00 ing-day-row-1">
+                                    <div class="judo ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name" style="color:#ffffff;">Mantra Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="6" href="#qtip" class="ing-qtip">Mantra Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="7" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 18:00 to 20:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-19-00 ing-day-row-1"></td>
+                                <td class="ing-cell ing-hour-col-20-00 ing-day-row-1"></td>
+                            </tr>
+                            <tr>
+                                <div colspan="2" class="ing-day-row ing-day-col-2">Tuesday</div>
+                                <td class="ing-cell ing-hour-col-07-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-08-00 ing-day-row-2">
+                                    <div class="kickboxing ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Power Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="8" href="#qtip" class="ing-qtip">Power Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="9" href="#qtip" class="ing-qtip">John Beaton "Scrappy Doo"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 8:00 to 10:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-09-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-10-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-11-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-12-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-13-00 ing-day-row-2">
+                                    <div class="mma ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Steam Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="10" href="#qtip" class="ing-qtip">Steam Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="11" href="#qtip" class="ing-qtip">Sandra Fit "dive Hammer"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 13:00 to 15:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-14-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-15-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-16-00 ing-day-row-2">
+                                    <div class="crossfit ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Yoga Core</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="12" href="#qtip" class="ing-qtip">Yoga Core</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="13" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 16:00 to 18:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-17-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-18-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-19-00 ing-day-row-2"></td>
+                                <td class="ing-cell ing-hour-col-20-00 ing-day-row-2"></td>
+                            </tr>
+                            <tr>
+                                <div colspan="2" class="ing-day-row ing-day-col-3">Wednesday</div>
+                                <td class="ing-cell ing-hour-col-07-00 ing-day-row-3">
+                                    <div class="kickboxing ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Power Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="14" href="#qtip" class="ing-qtip">Power Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="15" href="#qtip" class="ing-qtip">John Beaton "Scrappy Doo"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 7:00 to 9:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-08-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-09-00 ing-day-row-3">
+                                    <div class="mma ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Steam Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="16" href="#qtip" class="ing-qtip">Steam Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="17" href="#qtip" class="ing-qtip">Sandra Fit "dive Hammer"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 9:00 to 11:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-10-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-11-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-12-00 ing-day-row-3">
+                                    <div class="judo ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Mantra Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="18" href="#qtip" class="ing-qtip">Mantra Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="19" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 12:00 to 14:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-13-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-14-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-15-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-16-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-17-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-18-00 ing-day-row-3">
+                                    <div class="mma ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Steam Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="20" href="#qtip" class="ing-qtip">Steam Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="21" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 18:00 to 20:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-19-00 ing-day-row-3"></td>
+                                <td class="ing-cell ing-hour-col-20-00 ing-day-row-3"></td>
+                            </tr>
+                            <tr>
+                                <div colspan="2" class="ing-day-row ing-day-col-4">divursday</div>
+                                <td class="ing-cell ing-hour-col-07-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-08-00 ing-day-row-4">
+                                    <div class="judo ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Mantra Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="22" href="#qtip" class="ing-qtip">Mantra Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="23" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 8:00 to 10:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-09-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-10-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-11-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-12-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-13-00 ing-day-row-4">
+                                    <div class="mma ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Steam Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                        <a data-hasqtip="24" href="#qtip" class="ing-qtip">Steam Yoga</a>
+                                                                        <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                        <a data-hasqtip="25" href="#qtip" class="ing-qtip">Sandra Fit "dive Hammer"</a><span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 13:00 to 15:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-14-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-15-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-16-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-17-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-18-00 ing-day-row-4"></td>
+                                <td class="ing-cell ing-hour-col-19-00 ing-day-row-4">
+                                    <div class="kickboxing ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Power Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="26" href="#qtip" class="ing-qtip">Power Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="27" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 19:00 to 21:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-20-00 ing-day-row-4"></td>
+                            </tr>
+                            <tr>
+                                <div colspan="2" class="ing-day-row ing-day-col-5">Friday</div>
+                                <td class="ing-cell ing-hour-col-07-00 ing-day-row-5">
+                                    <div class="boxing ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Yoga Barre</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="28" href="#qtip" class="ing-qtip">Yoga Barre</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="29" href="#qtip" class="ing-qtip">John Beaton "Scrappy Doo"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 7:00 to 9:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-08-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-09-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-10-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-11-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-12-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-13-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-14-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-15-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-16-00 ing-day-row-5">
+                                    <div class="kickboxing ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Power Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="30" href="#qtip" class="ing-qtip">Power Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="31" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 16:00 to 18:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-17-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-18-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-19-00 ing-day-row-5"></td>
+                                <td class="ing-cell ing-hour-col-20-00 ing-day-row-5"></td>
+                            </tr>
+                            <tr>
+                                <div colspan="2" class="ing-day-row ing-day-col-6">Saturday</div>
+                                <td class="ing-cell ing-hour-col-07-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-08-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-09-00 ing-day-row-6">
+                                    <div class="judo ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Mantra Yoga</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="32" href="#qtip" class="ing-qtip">Mantra Yoga</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="33" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 9:00 to 11:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-10-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-11-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-12-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-13-00 ing-day-row-6">
+                                    <div class="crossfit ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Yoga Core</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="34" href="#qtip" class="ing-qtip">Yoga Core</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="35" href="#qtip" class="ing-qtip">Sam Smidiv "dive Machine"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 13:00 to 15:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-14-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-15-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-16-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-17-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-18-00 ing-day-row-6">
+                                    <div class="boxing ing-td-relative">
+                                        <div class="ing-class-container" style="widdiv: 188.119%;">
+                                            <div class="ing-class-name">Yoga Barre</div>
+                                            <div class="ing-details-box-container">
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="36" href="#qtip" class="ing-qtip">Yoga Barre</a>
+                                                                    <span class="ing-qtip-data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                                </span> widiv
+                                                <span class="ing-qtip-box">
+                                                                    <a data-hasqtip="37" href="#qtip" class="ing-qtip">John Beaton "Scrappy Doo"</a>
+                                                                    <span class="ing-qtip-data">Cras rhoncus justo ligula, hendrerit varius orci congue non.</span>
+                                                </span> 18:00 to 20:00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="ing-cell ing-hour-col-19-00 ing-day-row-6"></td>
+                                <td class="ing-cell ing-hour-col-20-00 ing-day-row-6"></td>
+                            </tr>
+                            <tr class="schedule_off_row">
+                                <div colspan="2" class="">Sunday</div>
+                                <td colspan="14" class="ing-off-day">
+                                    <h3>OFF</h3>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>-->

@@ -1008,15 +1008,19 @@ h6 {
     font-size: 15px;
 }
 
+.col--12 {
+    width: 12.5%;
+}
+
 .col--33 {
     width: 33.3%;
 }
 
-.col-50 {
+.col--50 {
     width: 50%;
 }
 
-.col-100 {
+.col--100 {
     width: 100%;
 }
 
