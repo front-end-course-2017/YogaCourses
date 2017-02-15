@@ -203,21 +203,13 @@
 							<i class="icon-60x60 icon-60x60--1"></i>
 					</span>
                 </header>
-                <ul id="gallery-slider" class="gallery-list slider">
-                    <li>
-                        <img src="web/images/gallery/1.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="web/images/gallery/2.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="web/images/gallery/3.jpg" alt="" />
-                    </li>
-                    <li>
-                        <img src="web/images/gallery/4.jpg" alt="" />
-                    </li>
+                <div class="text center">
+                    Йога е метод, чрез който можем да обединим способностите на главата, сърцето и ръцете; тяло, ум и дух. Днес трябва да разбираме йога не като духовно учение, но като наука за формиране на една цялостна личност, което е жизнено важно в днешното разкъсано от стрес и съревнование общество. Напрежението с неговата варираща интензивност, което преживяваме във всекидневието си, се проявява в тялото, ума и духа по различен начин, в следствие на което се стига до дисбаланс в поведението ни, в мисленето ни, в психиката ни, в проявлението на емоциите ни.
+                    <a href="javascript:;" title="" class="js-ajax-slider btn">Show gallery</a>
+                    <div id="gallery-slider-content">
 
-                </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -225,7 +217,6 @@
             <div class="wrapper">
                 <h4>Sit amet, consectetur adipisicing elit</h4>
                 <h2>SAM SMITH “THE GURU”</h2>
-                <a href="javascript:;" title="" class="btn">Нашите предложения</a>
             </div>
         </section>
     </main>

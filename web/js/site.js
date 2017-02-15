@@ -131,27 +131,36 @@ $(document).ready(function() {
     }
 
     //Init gallery slider
-    if ($('#gallery-slider')) {
-        $('#gallery-slider').slick({
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            responsive: [{
-                    breakpoint: 990,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
+
+    $('.js-ajax-slider').on('click', function(e){
+        e.preventDefault();
+        $.ajax({
+            type: "GET",
+            url:  "includes/gallery-slider.html", 
+            success: function(result){
+                $('#gallery-slider-content').html(result);
+                $(document).find('#gallery-slider').slick({
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    responsive: [{
+                            breakpoint: 990,
+                            settings: {
+                                slidesToShow: 2
+                            }
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 1
+                            }
+                        }
+                    ]
+                });
+            }
         });
-    }
+    });
 
     //Animation scroll to section
 
