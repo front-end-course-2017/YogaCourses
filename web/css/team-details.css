@@ -40,10 +40,15 @@ header {
 
 /* Sliders in team details page and course details page */
 
+.slider {
+    padding: 0 40px;
+}
+
 .slider .slick-arrow {
     position: absolute;
     top: 50%;
-    margin-top: -30px;
+    -webkit-transform: translateY(-50);
+    transform: translateY(-50);
     text-indent: -9999px;
     width: 30px;
     height: 30px;

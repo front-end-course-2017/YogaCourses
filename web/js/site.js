@@ -1,7 +1,7 @@
 // Fix for browsers that doesn't support CSS3 
-'use strict'
+
 (function($, window, document, undefined) {
-    'use strict';
+
 
     var s = document.body || document.documentElement,
         s = s.style;
@@ -109,7 +109,7 @@ $(document).ready(function() {
             autoplay: true,
             autoplaySpeed: 2000,
             responsive: [{
-                    breakpoint: 991,
+                    breakpoint: 990,
                     settings: {
                         slidesToShow: 3
                     }
@@ -127,6 +127,38 @@ $(document).ready(function() {
                     }
                 }
             ]
-        })
+        });
     }
+
+    //Init gallery slider
+    if ($('#gallery-slider')) {
+        $('#gallery-slider').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [{
+                    breakpoint: 990,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    }
+
+    //Animation scroll to section
+
+    // $(".js-animation-scroll").click(function() {
+    //     var section = $(this).data('section');
+    //     $('html, body').animate({
+    //         scrollTo: $('#about-us').offset().top
+    //     }, 2000);
+    // });
 });
