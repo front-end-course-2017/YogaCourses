@@ -6,23 +6,25 @@
     <!--#include file="includes/_header.html"-->
 
     <main class="main-content">
-        <section class="team-details table">
+        <section class="team-details after-header-block">
             <div class="wrapper">
-                <header>
+                <header class="center padding-header">
                     <h5>Courses</h5>
                     <h2>OUR TRAINING COURSES</h2>
                 </header>
-                <div class="team-details__img cell col--33">
-                    <img src="web/images/course-details/course-1.jpg" alt="YOGA BARRE" />
-                </div>
-                <div class="team-details__content cell col--66">
-                    <h2>YOGA BARRE</h2>
-                    <span class="icon-header">
-							<i class="icon-60x60 icon-60x60--3"></i>
-						</span>
-                    <div class="team-details__content__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quod labore laudantium soluta, quas, suscipit deserunt corrupti sequi doloremque, asperiores ut atque explicabo, earum ex unde? Quisquam eligendi, eum modi, repellat mollitia quod veniam
-                        ipsum debitis odit dolorum rerum beatae, perspiciatis ullam nam optio aut nulla inventore quibusdam tempora sed.</div>
+                <div class="table">
+                    <div class="team-details__img cell col--33">
+                        <img src="web/images/course-details/course-1.jpg" alt="YOGA BARRE" />
+                    </div>
+                    <div class="team-details__content cell col--66">
+                        <h2>YOGA BARRE</h2>
+                        <span class="icon-header">
+    							<i class="icon-60x60 icon-60x60--3"></i>
+    						</span>
+                        <div class="team-details__content__description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quod labore laudantium soluta, quas, suscipit deserunt corrupti sequi doloremque, asperiores ut atque explicabo, earum ex unde? Quisquam eligendi, eum modi, repellat mollitia quod veniam
+                            ipsum debitis odit dolorum rerum beatae, perspiciatis ullam nam optio aut nulla inventore quibusdam tempora sed.</div>
+                    </div>
                 </div>
             </div>
         </section>

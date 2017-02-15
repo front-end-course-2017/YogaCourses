@@ -1036,6 +1036,10 @@ h6 {
     width: 50%;
 }
 
+.col--66{
+    width: 66.7%;
+}
+
 .col--100 {
     width: 100%;
 }
@@ -1138,6 +1142,7 @@ h6 {
 
 .cell {
     display: table-cell;
+    vertical-align: top;
 }
 
 
@@ -1188,6 +1193,20 @@ h6 {
     font-size: 24px;
 }
 
+
+.padding-header{
+    padding: 0 0 40px 0;
+}
+
+.team-details__img img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.team-details__content{
+    text-align: center;
+}
 
 /*-- Responsive --*/
 
@@ -1278,11 +1297,15 @@ h6 {
         display: block;
         width: 100%;
     }
+
+    .padding-header{
+        padding: 0 0 20px 0;
+    }
     .team-details__img img {
         margin: 0 auto;
     }
     .team-details__content {
-        padding-top: 15px;
+        padding: 15px 0;
     }
     .team-details__content h2 {
         padding-top: 10px;
