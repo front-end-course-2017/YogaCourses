@@ -1141,6 +1141,66 @@ h6 {
 }
 
 
+/* Sliders in team details page and course details page */
+
+.slider {
+    padding: 0 40px;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50);
+    transform: translateY(-50);
+    text-indent: -9999px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    z-index: 5;
+}
+
+.slider .slick-arrow:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 5px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #5fc7ae;
+}
+
+.slider .slick-prev {
+    left: 0;
+}
+
+.slider .slick-prev:before {
+    transform: rotate(180deg);
+}
+
+.slider .slick-next {
+    right: 0;
+}
+
+
+/* Courses slider */
+
+.slider .courses-list__img h2 {
+    font-size: 24px;
+}
+
+
+/*-- Responsive --*/
+
+@media (max-width: 74.9em) {
+    h5 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}
+
+
 /*-- Responsive --*/
 
 @media (max-width: 1400px) {
@@ -1208,6 +1268,26 @@ h6 {
     .block header p {
         padding: 10px 0 0 0;
     }
+    h5 {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .cell {
+        display: block;
+        width: 100%;
+    }
+    .team-details__img img {
+        margin: 0 auto;
+    }
+    .team-details__content {
+        padding-top: 15px;
+    }
+    .team-details__content h2 {
+        padding-top: 10px;
+        font-size: 30px;
+    }
 }
 
 
@@ -1234,6 +1314,20 @@ h6 {
     }
     .icon-header {
         padding: 10px 0 0 0;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    h2 {
+        padding-top: 12px;
+        font-size: 22px;
+    }
+    .icon-header:before,
+    .icon-header:after {
+        width: 80px;
+    }
+    .team-details__content__description {
+        padding-top: 14px;
     }
 }
 
@@ -1264,5 +1358,15 @@ h6 {
     }
     .home-slider__item__text {
         font-size: 28px;
+    }
+    .team-details__content h2 {
+        font-size: 24px;
+    }
+    .icon-header:before,
+    .icon-header:after {
+        width: 60px;
+    }
+    .team-details__content__description {
+        padding-top: 16px;
     }
 }
