@@ -1,5 +1,5 @@
 // Fix for browsers that doesn't support CSS3 
-;
+'use strict'
 (function($, window, document, undefined) {
     'use strict';
 

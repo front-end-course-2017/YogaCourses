@@ -969,6 +969,22 @@ h6 {
 }
 
 
+/*-- Gallery section --*/
+
+.gallery-list li {
+    vertical-align: middle;
+    color: #fff;
+    padding: 10px;
+}
+
+.gallery-list img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+
 /*-- Banner custom section --*/
 
 .banner-section {

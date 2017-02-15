@@ -195,6 +195,32 @@
             </div>
         </section>
 
+        <section class="gallery-section block">
+            <div class="wrapper">
+                <header>
+                    <h1>Our gallery</h1>
+                    <span class="icon-header">
+							<i class="icon-60x60 icon-60x60--1"></i>
+					</span>
+                </header>
+                <ul id="gallery-slider" class="grid gallery-list slider">
+                    <li class="col">
+                        <img src="web/images/gallery/1.jpg" alt="" />
+                    </li>
+                    <li class="col">
+                        <img src="web/images/gallery/2.jpg" alt="" />
+                    </li>
+                    <li class="col">
+                        <img src="web/images/gallery/3.jpg" alt="" />
+                    </li>
+                    <li class="col">
+                        <img src="web/images/gallery/4.jpg" alt="" />
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
         <section class="banner-section">
             <div class="wrapper">
                 <h4>Sit amet, consectetur adipisicing elit</h4>
@@ -202,9 +228,6 @@
                 <a href="javascript:;" title="" class="btn">Нашите предложения</a>
             </div>
         </section>
-		
-		<section></section>
-
     </main>
 
     <!--#include file="includes/_footer.html"-->
